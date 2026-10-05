@@ -191,3 +191,156 @@ h3 {
   gap: 1.25rem;
 }
 
+
+.values {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+.values li::before {
+  content: "✔ ";
+  color: var(--primary-color);
+}
+.hero-media img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+
+.aside-info {
+  margin: 0 1rem;
+  padding: 1.25rem;
+  background: var(--accent-color);
+  border-left: 6px solid var(--earth);
+  border-radius: var(--radius);
+}
+.aside-info h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+
+.section {
+  padding: 3rem 1rem;
+}
+.section-alt {
+  background: var(--soft-green);
+}
+.section-head {
+  max-width: 40rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+.section-head h2 {
+  margin-bottom: 0.5rem;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+.grid-2 {
+  max-width: 52rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border: 2px solid var(--soft-green);
+  border-radius: var(--radius);
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.card-body,
+.card-pad {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.25rem;
+}
+.card-body {
+  flex: 1;
+}
+.card-body .btn,
+.card-pad .btn {
+  margin-top: auto;
+}
+.detail dt {
+  font-weight: 700;
+  color: var(--earth);
+}
+.detail dd {
+  margin-bottom: 0.4rem;
+}
+.price {
+  font: 700 1.4rem var(--font-heading);
+  color: var(--primary-dark);
+}
+
+.check-list li::before {
+  content: "✔ ";
+  color: var(--primary-color);
+}
+.card-featured {
+  border-color: var(--primary-color);
+}
+.badge {
+  background: var(--primary-dark);
+  color: #fff;
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+.rating span:first-child {
+  color: #8a5a00;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+blockquote {
+  font-style: italic;
+}
+
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 3.5rem 1rem;
+  background: var(--primary-dark);
+  color: #fff;
+}
+.cta h2 {
+  color: #fff;
+}
+.cta p {
+  max-width: 38rem;
+}
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
