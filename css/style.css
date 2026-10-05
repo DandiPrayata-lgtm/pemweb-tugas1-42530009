@@ -409,3 +409,38 @@ blockquote {
     scroll-padding-top: 5rem;
   }
 }
+
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  .site-header {
+    padding: 0.75rem 4rem;
+  }
+  .hero {
+    padding: 4rem;
+    gap: 4rem;
+  }
+  .aside-info {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+  .section {
+    padding: 5rem 4rem;
+  }
+  .values {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+  }
+  .site-footer {
+    padding: 2.5rem 4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
